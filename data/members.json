@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "member-1",
+    "name": "Abrar Abir",
+    "role": "Founder and CEO",
+    "group": "leads",
+    "photo": "/images/members/Abrar.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/abrarabir/",
+      "github": "https://github.com/Abrar-Abir-BD",
+      "facebook": "",
+      "email": "your-email@example.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-2",
+    "name": "Emtenan Kabir",
+    "role": "Co-founder and CTO",
+    "group": "leads",
+    "photo": "/images/members/kabir.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/emtenankabir/",
+      "github": "https://github.com/emtenankabir",
+      "facebook": "",
+      "email": ""
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-3",
+    "name": "Musarrat Mahjabin",
+    "role": "Head of Research and Development",
+    "group": "members",
+    "photo": "/images/members/member 3.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/musarrat-mahjabin/",
+      "github": "https://github.com/MusarratMahjabin",
+      "facebook": "",
+      "email": "mahjabin.musarrat@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-4",
+    "name": "Member Name",
+    "role": "Role / Position",
+    "group": "members",
+    "photo": "/images/members/member-4.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": ""
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-5",
+    "name": "Member Name",
+    "role": "Role / Position",
+    "group": "members",
+    "photo": "/images/members/member-5.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": ""
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-6",
+    "name": "Member Name",
+    "role": "Role / Position",
+    "group": "members",
+    "photo": "/images/members/member-6.webp",
+    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
+    "intro": [
+      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
+      "Mention education, interests, and contributions to SAPH.Ai projects."
+    ],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": ""
+    },
+    "placeholder": false
+  }
+]

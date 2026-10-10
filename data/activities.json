@@ -1,0 +1,26 @@
+[
+  {
+    "id": "research",
+    "icon": "search",
+    "title": "On-site Research",
+    "summary": "We identify public issues through on-site research and community feedback, then analyze their root causes."
+  },
+  {
+    "id": "collaboration",
+    "icon": "community",
+    "title": "Collaboration",
+    "summary": "We collaborate with communities, lawmakers, businesses, and research groups to bring our skills in AI and Robotics to life."
+  },
+  {
+    "id": "solutions",
+    "icon": "robot",
+    "title": "Practical Solutions",
+    "summary": "We develop efficient, affordable, and accessible solutions that improve public health and services, support education, and boost local industries."
+  },
+  {
+    "id": "mentoring",
+    "icon": "mentor",
+    "title": "Mentoring Changemakers",
+    "summary": "We are passionate about mentoring the next generation of changemakers and warmly welcome dreamers and problem solvers to join us."
+  }
+]

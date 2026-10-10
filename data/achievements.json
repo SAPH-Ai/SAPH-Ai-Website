@@ -1,0 +1,155 @@
+[
+  {
+    "id": "achievement-1",
+    "date": "2024",
+    "title": "Silver and Bronze Medals at 26th International Robot Olympiad",
+    "description": "Abrar Abir, Emtenan Kabir, and Taha earned Silver and Bronze Medals by solving local water infrastructure-related challenges at the 26th International Robot Olympiad in Busan, South Korea. Furthermore, Emtenan Kabir individually earned a silver medal in the Creative Senior category and a bronze medal in the Creative Movie Senior category.",
+    "image": "/images/achievements/achievement-1.webp",
+    "badge": "International",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-2",
+    "date": "",
+    "title": "Bronze Medal at International Robot Olympiad",
+    "description": "SAPH.Ai member Khondokar Mushfiqul Islam brought home a Bronze Medal from the International Robot Olympiad (IRO) held in Gold Coast, Australia.",
+    "image": "/images/achievements/achievement-2.webp",
+    "badge": "International",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-3",
+    "date": "2025",
+    "title": "Startup Idea Award at WRO Asia Pacific Championship",
+    "description": "Led by Abrar Abir and A Z M Emtenan Kabir, Team SAPH.Ai competed against 160 teams from 25 countries in the Future Innovators Senior Category at the World Robot Olympiad Asia Pacific Championship in the Philippines. The team achieved 5th place and won the prestigious Startup Idea Award, marking the highest honor for Bangladesh in this category.",
+    "image": "/images/achievements/achievement-3.webp",
+    "badge": "International",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-4",
+    "date": "August 2026",
+    "title": "3rd Prize at 16th e-ICON World Contest",
+    "description": "SAPH.Ai members Musarrat Mahjabin and Turabi Meherin Sokal secured 3rd Prize at the 16th e-ICON World Contest in Seoul, South Korea. Competing against 252 international teams, they developed MonAndo, an AI-powered mental wellness web app providing Virtual Reality Exposure Therapy for underprivileged youth.",
+    "image": "/images/achievements/achievement-4.webp",
+    "badge": "International",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-5",
+    "date": "2024",
+    "title": "Seed Fund Winner at Bangladesh Stockholm Junior Water Prize",
+    "description": "Abrar Abir and Emtenan Kabir of Team SAPH.Ai achieved the status of National Finalists at the prestigious Bangladesh Stockholm Junior Water Prize. Spearheading SAPH.Ai, they ultimately became the Seed Fund Winner.",
+    "image": "/images/achievements/achievement-5.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-6",
+    "date": "2024",
+    "title": "Winners at 7th Bangladesh Robot Olympiad National Round",
+    "description": "Abrar Abir, Emtenan Kabir, and Taha, representing Team SAPH.Ai, emerged as Winners at the 7th Bangladesh Robot Olympiad National Round, exemplifying technical mastery.",
+    "image": "/images/achievements/14.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-7",
+    "date": "2025",
+    "title": "Champions at WRO Bangladesh Open Championship",
+    "description": "Abrar Abir, Emtenan Kabir, and Rifat Ahmmed won the National Round of the WRO Bangladesh Open Championship 2025. Additionally, Abrar, Arkoprotik Achariya, and Samim Ahanaf Tahmid secured the winner's medal at the Dhaka Regional Round. The team also earned an Honorable Mention in the WROBd Virtual Future Innovators Contest in May 2025.",
+    "image": "/images/achievements/17.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-8",
+    "date": "",
+    "title": "Honored by Bangladesh Bank Governor",
+    "description": "SAPH.Ai team member Emtenan Kabir was honored for his excellence by Dr. Ahsan H. Mansur, the Governor of Bangladesh Bank.",
+    "image": "",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-9",
+    "date": "",
+    "title": "National Stage at 47th National Science and Technology Week",
+    "description": "Team SAPH.Ai represented Bagerhat at the national stage after earning championship titles at the Upazila, District, and Division levels. The team showcased their disaster-response system, guided by Abrar Abir and Emtenan Kabir, after previously securing 3rd Place at the BAFSD Science Fair.",
+    "image": "/images/achievements/19.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-10",
+    "date": "",
+    "title": "2nd Runner-Up at National STEAM Olympiad",
+    "description": "Abrar Abir, Emtenan Kabir, and Sonoth Amin, operating under Team SAPH.Ai (Subterranean Sanitizers), claimed the 2nd Runner-Up title at Bangladesh's National STEAM Olympiad after advancing to the final round as a Top 10 team.",
+    "image": "/images/achievements/13.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-11",
+    "date": "",
+    "title": "Gold Medal at Codeavour 5.0 National Round",
+    "description": "Team SAPH.Ai, featuring Abrar Abir, Emtenan Kabir, and Turjo Chowdhury, earned a Silver Medal in the regional round of Codeavour 5.0 International. They subsequently won a Gold Medal in the National round, leading them to represent Bangladesh in Dubai.",
+    "image": "/images/achievements/7.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-12",
+    "date": "2024",
+    "title": "Top 20 at BCSIR National Science and Industrial Technology Fair",
+    "description": "Abrar Abir and Emtenan Kabir were recognized as one of the Top 20 teams at the BCSIR National Science and Industrial Technology Fair 2024.",
+    "image": "/images/achievements/4.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-13",
+    "date": "1431",
+    "title": "1st Runner-Up at Astro Boishakhi Mela",
+    "description": "Abrar, Emtenan, and Turjo achieved the 1st Runner-Up position at the Astro Boishakhi Mela 1431, an event held by the Sheikh Bangabandhu Mujibur Rahman Novotheatre to celebrate the Bangla New Year.",
+    "image": "/images/achievements/9.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-14",
+    "date": "2024",
+    "title": "Champion at 15th DRMC National Science & Codeavour 1.0",
+    "description": "Abrar and Emtenan achieved the title of Champion in the IT Project Display segment at the 15th DRMC National Science & Codeavour 1.0 International Carnival in 2024.",
+    "image": "/images/achievements/6.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-15",
+    "date": "",
+    "title": "1st Position at 7th Rajshahi College National Science Fest",
+    "description": "Team SAPH.Ai's research paper claimed the First position at the 7th Rajshahi College National Science Fest, with the submission delivered by Emtenan.",
+    "image": "/images/achievements/5.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-16",
+    "date": "",
+    "title": "Champion at TCSC SCIENCE FIESTA 1.0",
+    "description": "The project by Team SAPH.Ai, including Abrar, Emtenan, and Siam, emerged as the Champion at the TCSC SCIENCE FIESTA 1.0 hosted by the Tejgaon College Science Club.",
+    "image": "/images/achievements/3.webp",
+    "badge": "National",
+    "placeholder": false
+  },
+  {
+    "id": "achievement-17",
+    "date": "2023",
+    "title": "Champion at 5th BAFSD National Science Festival",
+    "description": "Team SAPH.Ai, consisting of Abrar and Emtenan, achieved its first Champion position in the project display category at the 5th BAFSD National Science Festival 2023.",
+    "image": "/images/achievements/2.webp",
+    "badge": "National",
+    "placeholder": false
+  }
+]

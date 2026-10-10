@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "flexi-grow",
+    "title": "Flexi-Grow: The Future of Soft Robotics",
+    "category": "Soft Robotics",
+    "status": "Prototype",
+    "summary": "A pneumatically driven soft-growing robotic platform designed to navigate fragile or narrow environments where traditional rigid robots fail. It utilizes AI-based object detection and real-time FPV video for disaster response and exploration.",
+    "description": [],
+    "image": "/images/projects/flexi_grow.webp",
+    "tags": ["Robotics", "AI", "Disaster Relief", "Exploration"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  },
+  {
+    "slug": "ai-drainage-sewage-maintenance-system",
+    "title": "AI-Assisted Drainage & Sewage Maintenance System",
+    "category": "Autonomous Maintenance",
+    "status": "Prototype",
+    "summary": "A system of specialized robots utilizing AI and computer vision to autonomously detect blockages, identify toxic gases, and clean urban drainage systems. It performs these tasks without risking human lives in hazardous environments.",
+    "description": [],
+    "image": "/images/projects/ai drainage.webp",
+    "tags": ["Robotics", "AI", "Drainage", "Sewage"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  },
+  {
+    "slug": "six-wheeler-pipeline-inspection-robot",
+    "title": "6-Wheeler Robot for Pipeline Inspection",
+    "category": "Pipeline Inspection",
+    "status": "Prototype",
+    "summary": "A rugged, 6-wheel drive robot that autonomously navigates underground sewage lines to identify blockages and detect explosive gases like Methane. It features a robotic arm for debris removal and automatic chemical mitigation.",
+    "description": [],
+    "image": "/images/projects/pipeline_robot.webp",
+    "tags": ["Robotics", "AI", "Sensors", "Safety"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  },
+  {
+    "slug": "water-contamination-detection-system",
+    "title": "Cheap & Rapid Water Contamination Detection System",
+    "category": "Water Quality",
+    "status": "In development",
+    "summary": "An ultra-low-cost, handheld device that uses a macro camera and edge AI to inspect water samples. It provides real-time detection of microplastics, microfibers, and iron particles with ~90% accuracy.",
+    "description": [],
+    "image": "/images/projects/water_detect.webp",
+    "tags": ["Water", "Sensors", "AI", "Sanitation"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  },
+  {
+    "slug": "monando",
+    "title": "MonAndo",
+    "category": "Mental Wellness",
+    "status": "Prototype",
+    "summary": "A free, AI-powered web app that turns ordinary smartphones into Virtual Reality Exposure Therapy (VRET) devices. Designed for underprivileged youth, it provides immersive therapy scenarios, non-judgmental AI reflection, and emergency SOS tools.",
+    "description": [],
+    "image": "/images/projects/monando.webp",
+    "tags": ["AI", "VR", "Mental Health", "Therapy"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  }
+]

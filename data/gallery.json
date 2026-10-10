@@ -1,0 +1,58 @@
+[
+  {
+    "src": "/images/gallery/1.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/2.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 800,
+    "height": 1100,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/3.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 1200,
+    "height": 900,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/4.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 1000,
+    "height": 1000,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/5.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/6.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 800,
+    "height": 1100,
+    "placeholder": true
+  },
+  {
+    "src": "/images/gallery/7.webp",
+    "alt": "Placeholder photo — replace with an event photo and describe it here",
+    "caption": "Add a caption (event, place, date)",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  }
+]

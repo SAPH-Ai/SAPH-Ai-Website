@@ -1,0 +1,86 @@
+{
+  "name": "SAPH.Ai",
+  "nameBn": "সাফ.ই",
+  "url": "https://saph.ai",
+  "tagline": "Revolutionizing Change, Inspiring Generations",
+  "heroSubline": "SAPH.Ai focuses on applying AI and Robotics to tackle real challenges in rural and urban areas. By listening to communities and exploring their needs, we find innovative solutions that are efficient and affordable.",
+  "description": "SAPH.Ai is a youth-led robotics organization in Bangladesh revolutionizing sanitation, water and drainage management through robotics and artificial intelligence.",
+  "missionLine": "Revolutionizing sanitation, water and drainage management through robotics and artificial intelligence.",
+  "about": [
+    "SAPH.Ai focuses on applying AI and Robotics to tackle real challenges in rural and urban areas. By listening to communities and exploring their needs, we find innovative solutions that are efficient and affordable.",
+    "Our work aims to improve public health, enhance education, and support local businesses. We believe that technology should uplift communities and make everyday life better for everyone. Our commitment to these ideals has earned us international recognition and awards.",
+    "We invite dreamers and problem solvers to join us in making a meaningful impact on society together. Let's transform research into technologies that truly matter."
+  ],
+  "whatWeDoIntro": "We transform data into technologies that truly matter. By connecting research with real-world applications, we aim to change how technology serves society for the better.",
+  "themes": ["AI", "Robotics", "Public Health", "Education", "Local Industries", "Communities"],
+  "logoStory": {
+    "intro": "The logo of SAPH.Ai symbolizes the harmony between nature and advanced technology in addressing water and sanitation challenges.",
+    "wave": "The lower curved line represents water, nature and the organic flow of life.",
+    "nodes": "The upper line with connected nodes signifies robotics, artificial intelligence and neural networks.",
+    "together": "The two lines run parallel, reflecting our core belief that modern technology and natural systems can coexist and progress together. This visual metaphor captures our mission to deliver sustainable, AI-driven sanitation solutions that empower communities while preserving the environment."
+  },
+  "stats": [
+    {
+      "label": "Projects",
+      "value": null,
+      "suffix": "",
+      "placeholder": true
+    },
+    {
+      "label": "Members",
+      "value": null,
+      "suffix": "",
+      "placeholder": true
+    },
+    {
+      "label": "Awards",
+      "value": null,
+      "suffix": "",
+      "placeholder": true
+    },
+    {
+      "label": "Communities reached",
+      "value": null,
+      "suffix": "+",
+      "placeholder": true
+    }
+  ],
+  "contact": {
+    "email": "saph.ai.official@gmail.com",
+    "location": "Dhaka, Bangladesh",
+    "placeholder": false
+  },
+  "social": [
+    {
+      "platform": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/saph.ai.official/",
+      "placeholder": true
+    },
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/saph.ai.official/",
+      "placeholder": true
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/company/saph-ai-official/",
+      "placeholder": true
+    },
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/SAPH-Ai",
+      "placeholder": true
+    },
+    {
+      "platform": "youtube",
+      "label": "YouTube",
+      "url": "",
+      "placeholder": true
+    }
+  ],
+  "showPlaceholderBadges": true
+}

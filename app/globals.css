@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   SAPH.Ai design tokens
+   Colors sampled from the official logo artwork (assets-source/).
+   Every token below is also exposed as a CSS variable, e.g.
+   var(--color-brand-bright), and as Tailwind classes, e.g. bg-brand-bright.
+------------------------------------------------------------------- */
+@theme {
+  --color-brand-bright: #1a86c5; /* top layer of the mark */
+  --color-brand-mid: #245d7b; /* middle layer, "Ai" in the wordmark */
+  --color-brand-navy: #072739; /* bottom layer */
+  --color-brand-ink: #041a27; /* deepest background (footer) */
+  --color-brand-sky: #6cb8e6; /* accent for text on dark backgrounds */
+  --color-brand-action: #1672a8; /* buttons: white text passes WCAG AA */
+  --color-brand-action-hover: #125e8b;
+
+  --color-mist-50: #f3f7fa;
+  --color-mist-100: #dce7ee;
+  --color-mist-200: #c3d4df;
+  --color-mist-300: #a3bac8;
+  --color-mist-500: #6a90a5;
+  --color-mist-700: #2c6381;
+
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-bengali: var(--font-hind-siliguri), var(--font-poppins), sans-serif;
+
+  --radius-card: 1.25rem;
+
+  --animate-wave-drift: wave-drift 22s linear infinite;
+  --animate-wave-drift-slow: wave-drift 36s linear infinite;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-node-pulse: node-pulse 2.8s ease-out infinite;
+  --animate-flow: flow 5s linear infinite;
+  --animate-fade-up: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes wave-drift {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+  @keyframes node-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.55);
+      opacity: 0;
+    }
+  }
+  @keyframes flow {
+    from {
+      stroke-dashoffset: 0;
+    }
+    to {
+      stroke-dashoffset: -2600;
+    }
+  }
+}
+
+:root {
+  --header-height: 4.5rem;
+}
+
+html {
+  scroll-padding-top: calc(var(--header-height) + 1rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-brand-navy);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:lang(bn) {
+  font-family: var(--font-bengali);
+}
+
+/* Visible, consistent keyboard focus everywhere */
+:focus-visible {
+  outline: 3px solid var(--color-brand-bright);
+  outline-offset: 3px;
+  border-radius: 0.5rem;
+}
+
+::selection {
+  background: var(--color-brand-bright);
+  color: #fff;
+}
+
+/* SVG pieces that animate around their own centre */
+.svg-center {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+dialog::backdrop {
+  background: rgb(4 26 39 / 0.8);
+  backdrop-filter: blur(6px);
+}
+
+/* Respect reduced-motion for every CSS animation */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
