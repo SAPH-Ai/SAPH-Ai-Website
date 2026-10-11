@@ -1,4 +1,4 @@
-export type SocialPlatform = "facebook" | "instagram" | "linkedin" | "github" | "youtube";
+export type SocialPlatform = "facebook" | "instagram" | "x" | "linkedin" | "github" | "youtube";
 
 export interface SocialLink {
   platform: SocialPlatform;
@@ -7,39 +7,25 @@ export interface SocialLink {
   placeholder?: boolean;
 }
 
-export interface Stat {
-  label: string;
-  /** `null` shows a dash until a real number is added. */
-  value: number | null;
-  suffix?: string;
-  placeholder?: boolean;
-}
-
 export interface Site {
   name: string;
   nameBn: string;
   url: string;
   tagline: string;
+  /** Part of the tagline shown on its own line with the blue gradient. */
+  taglineHighlight?: string;
   heroSubline: string;
   description: string;
   missionLine: string;
   about: string[];
-  whatWeDoIntro: string;
-  themes: string[];
+  /** "What We Do" cards in the About section. */
+  themes: { title: string; description?: string }[];
   logoStory: { intro: string; wave: string; nodes: string; together: string };
-  stats: Stat[];
   contact: { email: string; location: string; placeholder?: boolean };
+  /** Google Form (or other page) opened by the "Join Us" buttons. */
+  joinUrl?: string;
   social: SocialLink[];
   showPlaceholderBadges: boolean;
-}
-
-export type ActivityIcon = "search" | "research" | "robot" | "trophy" | "community" | "mentor";
-
-export interface Activity {
-  id: string;
-  icon: ActivityIcon;
-  title: string;
-  summary: string;
 }
 
 export interface Project {
@@ -66,6 +52,8 @@ export interface Achievement {
   description: string;
   image?: string;
   badge?: string;
+  /** News, media and verification links shown as chips on the card. */
+  links?: { label: string; url: string }[];
   placeholder?: boolean;
 }
 
@@ -110,4 +98,22 @@ export interface EventItem {
   photos: EventPhoto[];
   link?: string;
   placeholder?: boolean;
+}
+
+export interface Publication {
+  id: string;
+  title: string;
+  authors: string[];
+  /** Conference or journal name. */
+  venue: string;
+  location?: string;
+  publisher?: string;
+  year?: string;
+  overview: string;
+  /** Key results, shown as a short list ("label: text"). */
+  results?: { label: string; text: string }[];
+  /** Link to the paper (e.g. IEEE Xplore). */
+  link?: string;
+  /** Button text for the link. Defaults to "Read the paper". */
+  linkLabel?: string;
 }

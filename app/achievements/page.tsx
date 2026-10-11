@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Timeline } from "@/components/achievements/Timeline";
+import { AchievementsGrid } from "@/components/achievements/AchievementsGrid";
 import { Container } from "@/components/layout/Container";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { achievements } from "@/lib/content";
@@ -18,8 +18,8 @@ export default function AchievementsPage() {
         title="Milestones along the way"
         intro="Competitions, exhibitions and recognition for our work."
       />
-      <Container className="max-w-3xl pt-6 pb-24">
-        <Timeline items={achievements} tone="light" headingLevel="h2" />
+      <Container className="pt-6 pb-24">
+        <AchievementsGrid items={achievements} headingLevel="h2" />
       </Container>
     </>
   );

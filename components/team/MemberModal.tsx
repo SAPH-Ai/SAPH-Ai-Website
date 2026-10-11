@@ -52,8 +52,11 @@ export function MemberModal({ member, onClose }: { member: Member | null; onClos
             </h2>
             <p className="text-brand-mid font-semibold">{member.role}</p>
             <div className="text-brand-navy/80 mt-5 space-y-4 leading-relaxed">
-              {(member.intro.length ? member.intro : [member.bio]).map((p, i) => (
-                <p key={i}>{p}</p>
+              {/* Short bio first, then the longer introduction paragraphs. */}
+              {[member.bio, ...member.intro].filter(Boolean).map((p, i) => (
+                <p key={i} className={i === 0 ? "text-brand-navy font-medium" : undefined}>
+                  {p}
+                </p>
               ))}
             </div>
             <div className="mt-6">

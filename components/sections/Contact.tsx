@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/Card";
 import { MailIcon, MapPinIcon } from "@/components/ui/Icons";
 import { PlaceholderBadge } from "@/components/ui/PlaceholderBadge";
 import { Reveal } from "@/components/ui/Reveal";
+import { JoinUsButton } from "@/components/ui/JoinUsButton";
 import { SocialLinks } from "@/components/ui/SocialLinks";
 import { site } from "@/lib/content";
 
@@ -53,6 +54,13 @@ export function Contact() {
               links={site.social}
               itemClassName="bg-white/10 text-white hover:bg-brand-bright"
             />
+          </Card>
+          <Card variant="glass" className="p-6">
+            <h3 className="font-semibold text-white">Join SAPH.Ai</h3>
+            <p className="mt-1 mb-4 text-sm text-mist-200">
+              Become a member and build technology that matters.
+            </p>
+            <JoinUsButton />
           </Card>
         </Reveal>
         <Reveal delay={0.1}>

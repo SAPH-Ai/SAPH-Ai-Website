@@ -3,7 +3,7 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
-import { site } from "@/lib/content";
+import { site, taglineText } from "@/lib/content";
 
 export const dynamic = "force-static";
 
@@ -36,7 +36,7 @@ export async function GET() {
       <div style={{ display: "flex", flexDirection: "column", maxWidth: 640 }}>
         <img src={pngUri(wordmark)} width={480} height={88} alt="" />
         <div style={{ fontSize: 40, fontWeight: 500, lineHeight: 1.3, marginTop: 24 }}>
-          {site.tagline}
+          {taglineText}
         </div>
         <div style={{ fontSize: 26, fontWeight: 500, marginTop: 24, color: "#245d7b" }}>
           {`Youth-led robotics · ${site.contact.location}`}

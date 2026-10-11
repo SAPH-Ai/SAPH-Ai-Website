@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { Logo } from "@/components/brand/Logo";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { CloseIcon, MenuIcon } from "@/components/ui/Icons";
+import { JoinUsButton } from "@/components/ui/JoinUsButton";
 import { navLinks } from "@/lib/nav";
 
 function useActiveSection(enabled: boolean) {
@@ -80,7 +81,7 @@ export function Navbar() {
         className="mx-auto flex h-[var(--header-height)] max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8"
       >
         <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <Logo title={null} gap="#dce7ee" priority className="size-9" />
+          <Logo variant="white" title={null} priority className="size-9" />
           <Wordmark tone="light" priority className="text-[1.45rem]" />
         </Link>
 
@@ -101,6 +102,9 @@ export function Navbar() {
               </li>
             );
           })}
+          <li className="ml-2">
+            <JoinUsButton size="sm" />
+          </li>
         </ul>
 
         <button
@@ -141,6 +145,9 @@ export function Navbar() {
               </li>
             );
           })}
+          <li className="pt-2">
+            <JoinUsButton className="w-full" onClick={() => setOpen(false)} />
+          </li>
         </ul>
       </div>
     </header>

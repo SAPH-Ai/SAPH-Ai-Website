@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
-import { ArrowRightIcon, CalendarIcon, MapPinIcon, ZoomIcon } from "@/components/ui/Icons";
+import { ArrowRightIcon, CalendarIcon, MapPinIcon } from "@/components/ui/Icons";
 import { PlaceholderBadge } from "@/components/ui/PlaceholderBadge";
 import type { EventItem } from "@/lib/types";
 
@@ -13,7 +13,6 @@ export function EventCard({
   headingLevel?: "h2" | "h3";
 }) {
   const Heading = headingLevel;
-  const photoCount = 1 + event.photos.length;
   return (
     <Card interactive className="group relative flex h-full flex-col overflow-hidden">
       <div className="relative aspect-[3/2] overflow-hidden bg-mist-100">
@@ -36,11 +35,6 @@ export function EventCard({
           {event.location && (
             <span className="inline-flex items-center gap-1.5">
               <MapPinIcon className="size-4" /> {event.location}
-            </span>
-          )}
-          {photoCount > 1 && (
-            <span className="inline-flex items-center gap-1.5">
-              <ZoomIcon className="size-4" /> {photoCount} photos
             </span>
           )}
         </p>

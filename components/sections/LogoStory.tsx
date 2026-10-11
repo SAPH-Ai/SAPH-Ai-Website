@@ -1,5 +1,4 @@
 import { AnimatedLogo } from "@/components/brand/AnimatedLogo";
-import { Logo } from "@/components/brand/Logo";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { Container } from "@/components/layout/Container";
 import { NetworkIcon, WavesIcon } from "@/components/ui/Icons";
@@ -51,18 +50,6 @@ export function LogoStory() {
             </div>
           </dl>
           <p className="text-brand-navy/80 mt-6 leading-relaxed">{story.together}</p>
-
-          <div className="mt-8 flex items-center gap-4" aria-label="Logo variants" role="group">
-            <span className="grid size-16 place-items-center rounded-2xl bg-white p-2.5 shadow-sm">
-              <Logo title="Full-color logo" className="size-full" />
-            </span>
-            <span className="grid size-16 place-items-center rounded-2xl bg-white p-2.5 shadow-sm">
-              <Logo variant="black" title="Black logo" className="size-full" />
-            </span>
-            <span className="bg-brand-navy grid size-16 place-items-center rounded-2xl p-2.5 shadow-sm">
-              <Logo variant="white" title="White logo" className="size-full" />
-            </span>
-          </div>
         </Reveal>
       </Container>
     </section>

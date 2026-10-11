@@ -1,155 +1,246 @@
 [
   {
     "id": "achievement-1",
-    "date": "2024",
-    "title": "Silver and Bronze Medals at 26th International Robot Olympiad",
-    "description": "Abrar Abir, Emtenan Kabir, and Taha earned Silver and Bronze Medals by solving local water infrastructure-related challenges at the 26th International Robot Olympiad in Busan, South Korea. Furthermore, Emtenan Kabir individually earned a silver medal in the Creative Senior category and a bronze medal in the Creative Movie Senior category.",
-    "image": "/images/achievements/achievement-1.webp",
+    "date": "",
+    "title": "Silver & Bronze Medals at International Robot Olympiad",
+    "description": "Team SAPH.Ai members Abrar Abir and Emtenan Kabir earned Silver and Bronze Medals by solving local water infrastructure-related challenges at the 26th International Robot Olympiad in Busan, South Korea. Competing against a massive field of over 35,000 participants from 90+ countries, the team designed and developed robotic systems aimed at cleaning urban waste and reducing marine pollution in Busan. This highly impactful solution received formal recognition from the Mayor of Busan, South Korea, and was positively considered for future implementation.",
+    "image": "/images/achievements/silver-bronze-medals-at-international-robot-olympiad.webp",
     "badge": "International",
+    "links": [
+      {
+        "label": "The Daily Star",
+        "url": "https://www.thedailystar.net/tech-startup/news/team-bangladesh-wins-10-medals-intl-robot-olympiad-2025-3808396"
+      },
+      {
+        "label": "Jago News 24",
+        "url": "https://www.jagonews24.com/en/sci-tech/news/79960"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-2",
     "date": "",
-    "title": "Bronze Medal at International Robot Olympiad",
-    "description": "SAPH.Ai member Khondokar Mushfiqul Islam brought home a Bronze Medal from the International Robot Olympiad (IRO) held in Gold Coast, Australia.",
-    "image": "/images/achievements/achievement-2.webp",
+    "title": "Best Startup Award at the World Robot Olympiad",
+    "description": "Team SAPH.Ai, led by Abrar Abir and A Z M Emtenan Kabir, made Bangladesh proud by winning the prestigious \"Startup Idea Award\" at the World Robot Olympiad OC in Manila, Philippines. Ranking among the top innovators out of a staggering 70,000+ competitors from 95 nations, the team was recognized for researching and engineering a pneumatic-based soft robot equipped with real-world entrepreneurial potential for leading rescue missions and underground exploration. Their strong problem-solving approach earned them international recognition, marking the highest honor Bangladesh has received to date in this category at the World Robot Olympiad, and perfectly aligning with SAPH.Ai's mission of transforming creative ideas into impactful innovations.",
+    "image": "/images/achievements/best-startup-award-at-the-world-robot-olympiad.webp",
     "badge": "International",
+    "links": [
+      {
+        "label": "WRO official results",
+        "url": "https://scoring.wro-association.org/en/event/scoring/272"
+      },
+      {
+        "label": "The Business Standard",
+        "url": "https://www.tbsnews.net/economy/corporates/bangladesh-runners-world-robot-olympiad-asia-pacific-open-1241906"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-3",
-    "date": "2025",
-    "title": "Startup Idea Award at WRO Asia Pacific Championship",
-    "description": "Led by Abrar Abir and A Z M Emtenan Kabir, Team SAPH.Ai competed against 160 teams from 25 countries in the Future Innovators Senior Category at the World Robot Olympiad Asia Pacific Championship in the Philippines. The team achieved 5th place and won the prestigious Startup Idea Award, marking the highest honor for Bangladesh in this category.",
-    "image": "/images/achievements/achievement-3.webp",
+    "date": "",
+    "title": "Winner at the e-ICON World Contest",
+    "description": "SAPH.Ai members Musarrat Mahjabin and Turabi Meherin Sokal, mentored by Abrar Abir, officially secured 3rd Prize at the prestigious 16th e-ICON World Contest in Seoul, South Korea. Hosted by the Ministry of Education, Republic of Korea, this global AI and software competition challenges young innovators to build web applications that directly address the UN Sustainable Development Goals (SDGs). Standing out among 252 international teams, Team MonAndo earned the fully funded honor of representing Bangladesh in the international final round by developing MonAndo, an AI-powered mental wellness web app that provides free, localized Virtual Reality Exposure Therapy (VRET) designed specifically for underprivileged youth.",
+    "image": "/images/achievements/winner-at-the-e-icon-world-contest.webp",
     "badge": "International",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-4",
-    "date": "August 2026",
-    "title": "3rd Prize at 16th e-ICON World Contest",
-    "description": "SAPH.Ai members Musarrat Mahjabin and Turabi Meherin Sokal secured 3rd Prize at the 16th e-ICON World Contest in Seoul, South Korea. Competing against 252 international teams, they developed MonAndo, an AI-powered mental wellness web app providing Virtual Reality Exposure Therapy for underprivileged youth.",
-    "image": "/images/achievements/achievement-4.webp",
+    "date": "",
+    "title": "Bronze Medal at International Robot Olympiad",
+    "description": "SAPH.Ai member Khondokar Mushfiqul Islam, mentored by Abrar Abir, proudly represented Bangladesh and brought home a Bronze Medal at the International Robot Olympiad (IRO) in Gold Coast, Australia. Competing on the global stage in aerospace robotics, he successfully designed and built a satellite maintenance robot capable of floating and executing tasks in outer space using AI computer vision.",
+    "image": "/images/achievements/bronze-medal-at-international-robot-olympiad.webp",
     "badge": "International",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-5",
-    "date": "2024",
-    "title": "Seed Fund Winner at Bangladesh Stockholm Junior Water Prize",
-    "description": "Abrar Abir and Emtenan Kabir of Team SAPH.Ai achieved the status of National Finalists at the prestigious Bangladesh Stockholm Junior Water Prize. Spearheading SAPH.Ai, they ultimately became the Seed Fund Winner.",
-    "image": "/images/achievements/achievement-5.webp",
+    "date": "",
+    "title": "Fund Winner at the Stockholm Junior Water Prize",
+    "description": "Spearheading SAPH.Ai, Abrar Abir and Emtenan Kabir were selected as the Seed Fund Winner at the Stockholm Junior Water Prize, competing among distinguished participants from 60+ countries. Supported by the Swedish Government and global organizations like WaterAid, they developed an innovative water pollution detection-focused research project to address critical sustainability and environmental challenges. The team engineered an AI model within a modular device to cheaply and instantly test water contamination and treat the water on the spot, successfully testing and treating polluted water in the coastal areas for 20 villages.",
+    "image": "/images/achievements/fund-winner-at-the-stockholm-junior-water-prize.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "Dhaka Mirror",
+        "url": "https://dhakamirror.com/stockholm-junior-water-prize-bangladesh-award-ceremony-held/"
+      },
+      {
+        "label": "The Business Standard",
+        "url": "https://www.tbsnews.net/bangladesh/hov-bangladesh-holds-bangladesh-stockholm-junior-water-prize-ceremony-2024-847726"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/photo/?fbid=952590103538970&set=a.461829055948413"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-6",
-    "date": "2024",
-    "title": "Winners at 7th Bangladesh Robot Olympiad National Round",
-    "description": "Abrar Abir, Emtenan Kabir, and Taha, representing Team SAPH.Ai, emerged as Winners at the 7th Bangladesh Robot Olympiad National Round, exemplifying technical mastery.",
-    "image": "/images/achievements/14.webp",
+    "date": "",
+    "title": "Winners at the Bangladesh Robot Olympiad",
+    "description": "Abrar Abir and Emtenan Kabir, the primary duo behind Team SAPH.Ai, were officially crowned Winners at the 7th Bangladesh Robot Olympiad National Round, exemplifying exceptional technical mastery.",
+    "image": "/images/achievements/winners-at-the-bangladesh-robot-olympiad.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "BdRO official results",
+        "url": "https://bdro.org/results/bdro_results_2024#:~:text=Technical"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-7",
-    "date": "2025",
-    "title": "Champions at WRO Bangladesh Open Championship",
-    "description": "Abrar Abir, Emtenan Kabir, and Rifat Ahmmed won the National Round of the WRO Bangladesh Open Championship 2025. Additionally, Abrar, Arkoprotik Achariya, and Samim Ahanaf Tahmid secured the winner's medal at the Dhaka Regional Round. The team also earned an Honorable Mention in the WROBd Virtual Future Innovators Contest in May 2025.",
-    "image": "/images/achievements/17.webp",
+    "date": "",
+    "title": "Winner at the World Robot Olympiad Bangladesh Open",
+    "description": "Team SAPH.Ai leaders Emtenan Kabir (Programming & Software Lead) and Abrar Abir (Team Leader, Mechanical & Technical Lead) won the National Round of the WRO Bangladesh Open Championship 2025, earning the distinct honor of representing Bangladesh at the World Robot Olympiad Open Championship - Asia & Pacific in the Philippines. Preceding this, Abrar Abir proudly secured the winner’s medal at the Dhaka Regional Round, which initially earned them their place in the World Robot Olympiad Bangladesh Nationals.",
+    "image": "/images/achievements/winner-at-the-world-robot-olympiad-bangladesh-open.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/photo/?fbid=1128428415974531&set=a.452112803606099"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-8",
     "date": "",
-    "title": "Honored by Bangladesh Bank Governor",
-    "description": "SAPH.Ai team member Emtenan Kabir was honored for his excellence by Dr. Ahsan H. Mansur, the Governor of Bangladesh Bank.",
-    "image": "",
+    "title": "Honour of Recognition Award at the Ministry of Posts, Telecommunications, and Information Technology",
+    "description": "SAPH.Ai was presented with the honour of recognition award from the Government's Ministry of Posts, Telecommunications, and Information Technology. This prestigious award was given as a formal recognition of the team's significant contributions to the country's rapidly growing tech sector.",
+    "image": "/images/achievements/honour-of-recognition-award-at-the-ministry-of-posts-telecommunications-and-information-technology.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-9",
     "date": "",
-    "title": "National Stage at 47th National Science and Technology Week",
-    "description": "Team SAPH.Ai represented Bagerhat at the national stage after earning championship titles at the Upazila, District, and Division levels. The team showcased their disaster-response system, guided by Abrar Abir and Emtenan Kabir, after previously securing 3rd Place at the BAFSD Science Fair.",
-    "image": "/images/achievements/19.webp",
+    "title": "Honor of Excellence at the Bangladesh Bank",
+    "description": "Emtenan Kabir of SAPH.Ai was formally honored for his excellence by Dr. Ahsan H. Mansur, the Governor of Bangladesh Bank. This notable recognition marked a profoundly proud moment for the entire SAPH.Ai team to cherish.",
+    "image": "/images/achievements/honor-of-excellence-at-the-bangladesh-bank.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-10",
     "date": "",
-    "title": "2nd Runner-Up at National STEAM Olympiad",
-    "description": "Abrar Abir, Emtenan Kabir, and Sonoth Amin, operating under Team SAPH.Ai (Subterranean Sanitizers), claimed the 2nd Runner-Up title at Bangladesh's National STEAM Olympiad after advancing to the final round as a Top 10 team.",
-    "image": "/images/achievements/13.webp",
+    "title": "3rd Place & Championship Titles at the National Science and Technology Week",
+    "description": "Team SAPH.Ai proudly represented Bagerhat on the national stage at the 47th National Science and Technology Week after successfully earning championship titles at the Upazila, District, and Division levels, alongside securing 3rd Place in the Project Presentation Category at the BAFSD Science Fair. The team, consisting of Talukdar Ahanaf Nafi, Ahmad Al Abid, Talukder Mahir Aronno, and Talukder Tanzim Sayad, supervised by honorable teacher Biddut Kumar Mondol Sir and guided by SAPH.Ai Founders Abrar Abir and Emtenan Kabir, showcased Symmetrical Holonomic Locomotion for Isotropic Hazard Traversal. This smart disaster-response system is designed to navigate hazardous environments, detect dangers, and collect real-time data from unsafe areas, demonstrating how locally developed robotics solutions can make emergency rescue operations safer, faster, and more effective for humanitarian response in Bangladesh.",
+    "image": "/images/achievements/3rd-place-championship-titles-at-the-national-science-and-technology-week.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-11",
     "date": "",
-    "title": "Gold Medal at Codeavour 5.0 National Round",
-    "description": "Team SAPH.Ai, featuring Abrar Abir, Emtenan Kabir, and Turjo Chowdhury, earned a Silver Medal in the regional round of Codeavour 5.0 International. They subsequently won a Gold Medal in the National round, leading them to represent Bangladesh in Dubai.",
-    "image": "/images/achievements/7.webp",
+    "title": "2nd Runner-Up at Bangladesh's National STEAM Olympiad",
+    "description": "Abrar Abir, Emtenan Kabir, and Sonoth Amin, the masterminds steering SAPH.Ai under the project name Subterranean Sanitizers, claimed the 2nd Runner-Up title at Bangladesh's National STEAM Olympiad. To address Bangladesh's sanitation crisis and eliminate hazardous manual labor, the team designed an AI-Assisted Drainage and Sewage Maintenance Bot using OpenCV and TensorFlow. The robot can autonomously navigate sewers, detect debris, and mitigate dangerous gases, offering a safer and highly efficient solution to inhuman working conditions.",
+    "image": "/images/achievements/2nd-runner-up-at-bangladesh-s-national-steam-olympiad.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/photo/?fbid=436998295793788&set=a.163958686431085"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-12",
-    "date": "2024",
-    "title": "Top 20 at BCSIR National Science and Industrial Technology Fair",
-    "description": "Abrar Abir and Emtenan Kabir were recognized as one of the Top 20 teams at the BCSIR National Science and Industrial Technology Fair 2024.",
-    "image": "/images/achievements/4.webp",
+    "date": "",
+    "title": "Gold Medal at the Codeavour: AI & Coding Competition",
+    "description": "Abrar Abir and Emtenan Kabir progressed with a Gold Medal in the National round, leading them to represent Bangladesh internationally at the Codeavour: AI & Coding Competition in Dubai. The team developed a 6-Wheeler Pipeline Inspection Robot, a specialized subsystem of their AI-Assisted Drainage & Sewage Maintenance project. Leveraging Artificial Intelligence and a rugged 6-wheel drive system, the robot autonomously navigates dangerous underground sewage pipelines to identify blockages, detect explosive gases like Methane (CH4), and perform targeted cleaning operations without risking human lives.",
+    "image": "/images/achievements/gold-medal-at-the-codeavour-ai-coding-competition.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/photo/?fbid=763592325922407&set=a.510170777931231"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-13",
-    "date": "1431",
-    "title": "1st Runner-Up at Astro Boishakhi Mela",
-    "description": "Abrar, Emtenan, and Turjo achieved the 1st Runner-Up position at the Astro Boishakhi Mela 1431, an event held by the Sheikh Bangabandhu Mujibur Rahman Novotheatre to celebrate the Bangla New Year.",
-    "image": "/images/achievements/9.webp",
+    "date": "",
+    "title": "Top 20 Teams Recognition at the BCSIR National Science and Industrial Technology Fair",
+    "description": "SAPH.Ai Founder Abrar Abir and Co-founder Emtenan Kabir were honored to be recognized as one of the Top 20 teams at the BCSIR National Science and Industrial Technology Fair 2024, garnering substantial media attention during the National Round. The team showcased their OpenCV and TensorFlow engineered AI-Assisted Drainage and Sewage Maintenance Bot, an autonomous robot capable of navigating sewers, detecting debris, and mitigating dangerous gases to solve Bangladesh's sanitation crisis and end hazardous manual cleaning.",
+    "image": "/images/achievements/top-20-teams-recognition-at-the-bcsir-national-science-and-industrial-technology-fair.webp",
     "badge": "National",
+    "links": [
+      {
+        "label": "Facebook reel 1",
+        "url": "https://www.facebook.com/reel/704536791861110"
+      },
+      {
+        "label": "Facebook reel 2",
+        "url": "https://www.facebook.com/reel/893838592440978"
+      },
+      {
+        "label": "Facebook reel 3",
+        "url": "https://www.facebook.com/reel/416880814095799"
+      }
+    ],
     "placeholder": false
   },
   {
     "id": "achievement-14",
-    "date": "2024",
-    "title": "Champion at 15th DRMC National Science & Codeavour 1.0",
-    "description": "Abrar and Emtenan achieved the title of Champion in the IT Project Display segment at the 15th DRMC National Science & Codeavour 1.0 International Carnival in 2024.",
-    "image": "/images/achievements/6.webp",
+    "date": "",
+    "title": "1st Runner-Up at the Astro Boishakhi Mela",
+    "description": "Team SAPH.Ai, consisting of Abrar and Emtenan, achieved the 1st Runner-Up position at the Astro Boishakhi Mela - 1431, an event hosted by the Sheikh Bangabandhu Mujibur Rahman Novotheatre during the celebration of Bangla New Year 1431. They were awarded for their creation of the AI-Assisted Drainage and Sewage Maintenance Bot, an OpenCV and TensorFlow-powered system that autonomously navigates sewers to detect debris and mitigate dangerous gases, providing a safe alternative to inhuman manual cleaning.",
+    "image": "/images/achievements/1st-runner-up-at-the-astro-boishakhi-mela.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-15",
     "date": "",
-    "title": "1st Position at 7th Rajshahi College National Science Fest",
-    "description": "Team SAPH.Ai's research paper claimed the First position at the 7th Rajshahi College National Science Fest, with the submission delivered by Emtenan.",
-    "image": "/images/achievements/5.webp",
+    "title": "Champion at the DRMC National Science & Codeavour International Carnival",
+    "description": "Abrar and Emtenan of Team SAPH.Ai proudly achieved the title of Champion in the IT Project Display segment at the 15th DRMC National Science & Codeavour 1.0 International Carnival in 2024. They exhibited their 6-Wheeler Pipeline Inspection Robot, an AI-driven subsystem with a rugged 6-wheel drive designed to tackle dangerous underground sewage lines by autonomously identifying blockages, detecting explosive gases like Methane (CH4), and performing targeted cleaning.",
+    "image": "/images/achievements/champion-at-the-drmc-national-science-codeavour-international-carnival.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-16",
     "date": "",
-    "title": "Champion at TCSC SCIENCE FIESTA 1.0",
-    "description": "The project by Team SAPH.Ai, including Abrar, Emtenan, and Siam, emerged as the Champion at the TCSC SCIENCE FIESTA 1.0 hosted by the Tejgaon College Science Club.",
-    "image": "/images/achievements/3.webp",
+    "title": "First Position at the Rajshahi College National Science Fest",
+    "description": "During the 7th Rajshahi College National Science Fest, Team SAPH.Ai's research paper claimed the First position. The paper detailed their AI-Assisted Drainage and Sewage Maintenance Bot, a robotic solution engineered with OpenCV and TensorFlow to fix Bangladesh's sanitation crisis by autonomously navigating sewers, detecting debris, and mitigating dangerous gases.",
+    "image": "/images/achievements/first-position-at-the-rajshahi-college-national-science-fest.webp",
     "badge": "National",
+    "links": [],
     "placeholder": false
   },
   {
     "id": "achievement-17",
-    "date": "2023",
-    "title": "Champion at 5th BAFSD National Science Festival",
-    "description": "Team SAPH.Ai, consisting of Abrar and Emtenan, achieved its first Champion position in the project display category at the 5th BAFSD National Science Festival 2023.",
-    "image": "/images/achievements/2.webp",
+    "date": "",
+    "title": "Champion at the TCSC SCIENCE FIESTA",
+    "description": "Team SAPH.Ai, including Abrar, Emtenan, and Siam, emerged as the Champion at the TCSC SCIENCE FIESTA 1.0, hosted by the Tejgaon College Science Club. The team presented the 6-Wheeler Pipeline Inspection Robot, leveraging Artificial Intelligence and a rugged 6-wheel drive system to autonomously navigate hazardous underground pipelines to clear blockages and detect explosive Methane (CH4) gases.",
+    "image": "/images/achievements/champion-at-the-tcsc-science-fiesta.webp",
     "badge": "National",
+    "links": [],
+    "placeholder": false
+  },
+  {
+    "id": "achievement-18",
+    "date": "",
+    "title": "Champion in Project Display at the BAFSD National Science Festival",
+    "description": "Team SAPH.Ai, consisting of Abrar and Emtenan, achieved its very first Champion position in the project display category at the 5th BAFSD National Science Festival 2023. The team designed an AI-Assisted Drainage and Sewage Maintenance Bot utilizing OpenCV and TensorFlow to autonomously navigate sewers, detect debris, and mitigate dangerous gases, successfully replacing dangerous manual labor with a safer, more efficient solution to the local sanitation crisis.",
+    "image": "/images/achievements/champion-in-project-display-at-the-bafsd-national-science-festival.webp",
+    "badge": "National",
+    "links": [],
     "placeholder": false
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "iciss-2026-water-contamination",
+    "title": "Low-Cost and Real-Time Water Contamination Detection in Bangladesh: A Sensor and Machine Learning Approach",
+    "authors": [
+      "Abrar Abir",
+      "A Z M Emtenan Kabir",
+      "Musarrat Mahjabin",
+      "Sirazum Munira",
+      "A Z M Tahmidul Kabir"
+    ],
+    "venue": "2026 13th International Conference on ICT for Smart Society (ICISS)",
+    "location": "Bandung, Indonesia",
+    "publisher": "",
+    "year": "",
+    "overview": "Addressing the critical challenge of safe water access in developing regions like Bangladesh, this project introduces a rapid-prototyping solution combining IoT sensors with an advanced machine learning detection model. By moving away from slow, costly laboratory tests, our system enables real-time monitoring and immediate identification of micro-pollutants.",
+    "link": "https://ieeexplore.ieee.org/document/11715493",
+    "linkLabel": "Read on IEEE Xplore"
+  }
+]

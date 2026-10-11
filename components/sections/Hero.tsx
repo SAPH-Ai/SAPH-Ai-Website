@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Logo } from "@/components/brand/Logo";
 import { Container } from "@/components/layout/Container";
 import { ButtonLink } from "@/components/ui/Button";
@@ -32,10 +33,26 @@ const waveA = "M0 80C240 20 480 20 720 80S1200 140 1440 80 1920 20 2160 80 2640 
 const waveB =
   "M0 100C180 60 360 50 540 80S900 140 1080 110 1320 50 1440 100 1800 60 1980 80 2340 140 2520 110 2760 50 2880 100V160H0Z";
 
+function withLineBreaks(text: string) {
+  return text.split("\n").map((line, i) => (
+    <Fragment key={i}>
+      {i > 0 && <br />}
+      {line}
+    </Fragment>
+  ));
+}
+
 export function Hero() {
-  // The part after the first "." or "," is highlighted in blue.
-  const match = site.tagline.match(/^(.+?[.,])\s+(.+)$/);
-  const [first, rest] = match ? [match[1], match[2]] : [site.tagline, ""];
+  // Line breaks ("\n") in the tagline are kept; `taglineHighlight` gets the blue gradient,
+  // even when it continues onto the next line.
+  const words = (site.taglineHighlight ?? "").trim().split(/\s+/).filter(Boolean);
+  const match = words.length
+    ? new RegExp(words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+")).exec(
+        site.tagline,
+      )
+    : null;
+  const first = match ? site.tagline.slice(0, match.index) : site.tagline;
+  const rest = match ? site.tagline.slice(match.index) : "";
   return (
     <section
       id="home"
@@ -61,20 +78,18 @@ export function Hero() {
         <rect width="100%" height="100%" fill="url(#hero-grid)" />
       </svg>
 
-      <Container className="relative grid min-h-[min(88svh,860px)] items-center gap-12 pt-12 pb-40 lg:grid-cols-[1.25fr_1fr] lg:pt-8">
+      <Container className="relative grid min-h-[min(88svh,860px)] items-center gap-12 pt-12 pb-40 lg:grid-cols-[1.4fr_1fr] lg:pt-8">
         <div className="animate-fade-up">
-          <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm font-medium text-mist-100 backdrop-blur">
-            <span className="bg-brand-sky size-2 rounded-full" aria-hidden="true" />
-            Youth-led robotics · Bangladesh
-          </p>
           <h1
             id="hero-heading"
-            className="text-[2.15rem] leading-[1.1] font-extrabold tracking-tight text-balance sm:text-5xl lg:text-[3.6rem]"
+            className="text-[clamp(1.6rem,8.6vw,2.15rem)] leading-[1.1] font-extrabold tracking-tight sm:text-5xl lg:text-[clamp(2.5rem,5.2vw,3.6rem)]"
           >
-            {first}{" "}
-            <span className="from-brand-sky bg-gradient-to-r via-[#8fd0f5] to-white bg-clip-text text-transparent">
-              {rest}
-            </span>
+            {withLineBreaks(first)}
+            {rest && (
+              <span className="bg-gradient-to-r from-[#38a0e0] via-[#7cc6f2] to-white bg-clip-text text-transparent">
+                {withLineBreaks(rest)}
+              </span>
+            )}
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-mist-200 sm:text-xl">
             {site.heroSubline}

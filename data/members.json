@@ -23,7 +23,7 @@
     "name": "Emtenan Kabir",
     "role": "Co-founder and CTO",
     "group": "leads",
-    "photo": "/images/members/kabir.webp",
+    "photo": "/images/members/2.webp",
     "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
     "intro": [
       "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
@@ -33,14 +33,30 @@
       "linkedin": "https://www.linkedin.com/in/emtenankabir/",
       "github": "https://github.com/emtenankabir",
       "facebook": "",
-      "email": ""
+      "email": "imtenankabir@gmail.com"
     },
     "placeholder": false
   },
   {
-    "slug": "member-3",
+    "slug": "mahin-al-muntasad",
+    "name": "Mahin Al Muntasad",
+    "role": "Chief Operating Officer",
+    "group": "members",
+    "photo": "/images/members/3.webp",
+    "bio": "",
+    "intro": [],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": "mahinsrijon@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "member-4",
     "name": "Musarrat Mahjabin",
-    "role": "Head of Research and Development",
+    "role": "Deputy CTO",
     "group": "members",
     "photo": "/images/members/member 3.webp",
     "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
@@ -57,59 +73,98 @@
     "placeholder": false
   },
   {
-    "slug": "member-4",
-    "name": "Member Name",
-    "role": "Role / Position",
+    "slug": "shahriar-al-jubair",
+    "name": "Shahriar Al Jubair",
+    "role": "Chief Marketing Officer",
     "group": "members",
-    "photo": "/images/members/member-4.webp",
-    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
-    "intro": [
-      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
-      "Mention education, interests, and contributions to SAPH.Ai projects."
-    ],
+    "photo": "/images/members/5.webp",
+    "bio": "",
+    "intro": [],
     "links": {
       "linkedin": "",
       "github": "",
       "facebook": "",
-      "email": ""
+      "email": "shahriarjubair202@gmail.com"
     },
     "placeholder": false
   },
   {
-    "slug": "member-5",
-    "name": "Member Name",
-    "role": "Role / Position",
+    "slug": "abir-dey",
+    "name": "Abir Dey",
+    "role": "Chief Financial Officer",
     "group": "members",
-    "photo": "/images/members/member-5.webp",
-    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
-    "intro": [
-      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
-      "Mention education, interests, and contributions to SAPH.Ai projects."
-    ],
+    "photo": "/images/members/6.webp",
+    "bio": "",
+    "intro": [],
     "links": {
       "linkedin": "",
       "github": "",
       "facebook": "",
-      "email": ""
+      "email": "abirdey0905@gmail.com"
     },
     "placeholder": false
   },
   {
-    "slug": "member-6",
-    "name": "Member Name",
-    "role": "Role / Position",
+    "slug": "maimun-azmaeen-adib",
+    "name": "Maimun Azmaeen Adib",
+    "role": "Head of Sustainability and Environmental Research",
     "group": "members",
-    "photo": "/images/members/member-6.webp",
-    "bio": "Add a 2–3 line bio here: what this person works on at SAPH.Ai and what they care about.",
-    "intro": [
-      "Add a longer introduction here. Each item in this list becomes its own paragraph in the profile window.",
-      "Mention education, interests, and contributions to SAPH.Ai projects."
-    ],
+    "photo": "/images/members/7.webp",
+    "bio": "",
+    "intro": [],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/maimun-azmaeen-adib-408284389?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "github": "",
+      "facebook": "",
+      "email": "azmaeen.adib13903@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "md-atik-morshed",
+    "name": "MD. ATIK MORSHED",
+    "role": "Head of AI Policy & Ethics",
+    "group": "members",
+    "photo": "/images/members/8.webp",
+    "bio": "",
+    "intro": [],
     "links": {
       "linkedin": "",
       "github": "",
       "facebook": "",
-      "email": ""
+      "email": "mdatikmorshed098@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "khondokar-mushfiqul-islam",
+    "name": "Khondokar Mushfiqul Islam",
+    "role": "Robotics Research Intern",
+    "group": "members",
+    "photo": "/images/members/9.webp",
+    "bio": "",
+    "intro": [],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": "khmushfiq178311@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
+    "slug": "talukdar-ahanaf-nafi",
+    "name": "Talukdar Ahanaf Nafi",
+    "role": "Robotics Research Intern",
+    "group": "members",
+    "photo": "/images/members/10.webp",
+    "bio": "",
+    "intro": [],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": "talukdernafi6@gmail.com"
     },
     "placeholder": false
   }

@@ -44,10 +44,7 @@ export function MemberCard({
           </button>
         </Heading>
         <p className="text-brand-mid text-sm font-semibold">{member.role}</p>
-        <p className="text-brand-navy/75 mt-3 line-clamp-3 flex-1 text-sm leading-relaxed">
-          {member.bio}
-        </p>
-        <div className="mt-4">
+        <div className="mt-auto pt-4">
           <MemberLinks member={member} />
         </div>
       </div>

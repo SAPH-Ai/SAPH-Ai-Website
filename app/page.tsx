@@ -7,8 +7,8 @@ import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 import { Gallery } from "@/components/sections/Gallery";
 import { Hero } from "@/components/sections/Hero";
 import { LogoStory } from "@/components/sections/LogoStory";
+import { Publications } from "@/components/sections/Publications";
 import { Team } from "@/components/sections/Team";
-import { WhatWeDo } from "@/components/sections/WhatWeDo";
 import { events } from "@/lib/content";
 
 export default function HomePage() {
@@ -17,13 +17,12 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
-      <WaveDivider from="white" to="mist" />
-      <WhatWeDo />
-      <WaveDivider from="mist" to="white" flip />
       <FeaturedProjects />
       <WaveDivider from="white" to="navy" />
       <Achievements />
-      <WaveDivider from="navy" to={hasEvents ? "mist" : "white"} flip />
+      <WaveDivider from="navy" to="white" flip />
+      <Publications />
+      {hasEvents && <WaveDivider from="white" to="mist" />}
       <Events />
       {hasEvents && <WaveDivider from="mist" to="white" />}
       <Team />

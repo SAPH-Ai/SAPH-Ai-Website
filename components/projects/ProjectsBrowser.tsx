@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectFeature } from "./ProjectFeature";
 import type { Project } from "@/lib/types";
 
 /** Project grid with a tag filter. */
@@ -47,10 +47,15 @@ export function ProjectsBrowser({ projects }: { projects: Project[] }) {
         Showing {shown.length} project{shown.length === 1 ? "" : "s"}
         {active ? ` tagged ${active}` : ""}
       </p>
-      <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {shown.map((project) => (
+      {/* Same layout as the home page: 2 columns, sides swap on every other row. */}
+      <ul className="grid gap-x-12 gap-y-14 lg:grid-cols-2 lg:gap-y-16">
+        {shown.map((project, i) => (
           <li key={project.slug}>
-            <ProjectCard project={project} headingLevel="h2" />
+            <ProjectFeature
+              project={project}
+              reverse={Math.floor(i / 2) % 2 === 1}
+              headingLevel="h2"
+            />
           </li>
         ))}
       </ul>
