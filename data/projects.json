@@ -65,6 +65,20 @@
     "placeholder": false
   },
   {
+    "slug": "Autonomous Underwater Robot for Environmental Analysis",
+    "title": "Autonomous Underwater Robot for Environmental Analysis",
+    "category": "",
+    "status": "",
+    "summary": "This custom AUV submerges to navigate and explore various underwater environments. It inspects water quality in real-time using sensors while detecting contaminants via computer vision. All gathered environmental and visual data is then transmitted back to the surface for analysis.",
+    "description": [],
+    "image": "/images/projects/pipeline_robot.webp",
+    "tags": ["Robotics", "AI", "Sensors", "Safety"],
+    "year": "",
+    "featured": true,
+    "links": [],
+    "placeholder": false
+  },
+  {
     "slug": "ai-drainage-sewage-maintenance-system",
     "title": "AI-Assisted Drainage & Sewage Maintenance System",
     "category": "",
@@ -78,7 +92,7 @@
     "links": [],
     "placeholder": false
   },
-  {
+   {
     "slug": "six-wheeler-pipeline-inspection-robot",
     "title": "6-Wheeler Robot for Pipeline Inspection",
     "category": "",
