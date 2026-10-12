@@ -8,6 +8,7 @@ export function FeaturedProjects() {
   return (
     <Section
       id="projects"
+      tone="mist"
       eyebrow="Featured projects"
       title="Innovations That Matter"
       intro="A look at what we are building. Each project grows through research, fieldwork and competition."

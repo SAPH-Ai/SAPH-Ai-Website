@@ -17,8 +17,9 @@ export default function HomePage() {
     <>
       <Hero />
       <About />
+      <WaveDivider from="white" to="mist" />
       <FeaturedProjects />
-      <WaveDivider from="white" to="navy" />
+      <WaveDivider from="mist" to="navy" />
       <Achievements />
       <WaveDivider from="navy" to="white" flip />
       <Publications />
