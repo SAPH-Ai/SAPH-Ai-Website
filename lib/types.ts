@@ -17,6 +17,8 @@ export interface Site {
   heroSubline: string;
   description: string;
   missionLine: string;
+  /** Small print at the very bottom of the footer. */
+  disclaimer?: string;
   about: string[];
   /** "What We Do" cards in the About section. */
   themes: { title: string; description?: string }[];

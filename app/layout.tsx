@@ -21,7 +21,7 @@ const hindSiliguri = Hind_Siliguri({
   preload: false,
 });
 
-const title = `${site.name} — Robotics & AI for clean water and sanitation`;
+const title = `${site.name} — ${taglineText}`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),

@@ -58,6 +58,13 @@ export function Footer() {
           </p>
           <p>Made with care by Musarrat Mahjabin.</p>
         </Container>
+        {site.disclaimer && (
+          <Container className="pb-6">
+            <p className="text-xs leading-relaxed text-mist-300/80">
+              <span className="font-semibold">Disclaimer:</span> {site.disclaimer}
+            </p>
+          </Container>
+        )}
       </div>
     </footer>
   );

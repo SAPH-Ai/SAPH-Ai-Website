@@ -12,14 +12,12 @@ export function Team() {
       title="The young minds behind SAPH.Ai"
       intro="Students and young innovators combining robotics, AI and community work. Select a card to read a full profile."
     >
-      <div className="mb-10">
-        <JoinUsButton size="sm" />
-      </div>
       <TeamGrid groups={memberGroups} />
-      <div className="mt-12 flex justify-center">
+      <div className="mt-12 flex flex-wrap justify-center gap-3">
         <ButtonLink href="/team/" variant="ghost-dark" arrow>
           Full team page
         </ButtonLink>
+        <JoinUsButton />
       </div>
     </Section>
   );

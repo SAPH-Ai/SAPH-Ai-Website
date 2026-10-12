@@ -85,7 +85,7 @@ export function Navbar() {
           <Wordmark tone="light" priority className="text-[1.45rem]" />
         </Link>
 
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden items-center gap-0.5 lg:flex xl:gap-1">
           {navLinks.map((link) => {
             const active = isActive(link);
             return (
@@ -93,7 +93,7 @@ export function Navbar() {
                 <Link
                   href={link.href}
                   aria-current={active ? (isHome ? "location" : "page") : undefined}
-                  className={`relative rounded-full px-3.5 py-2 text-sm font-medium transition-colors ${
+                  className={`relative rounded-full px-2.5 py-2 text-sm font-medium whitespace-nowrap transition-colors xl:px-3.5 ${
                     active ? "bg-white/12 text-white" : "text-mist-200 hover:text-white"
                   }`}
                 >
@@ -102,7 +102,7 @@ export function Navbar() {
               </li>
             );
           })}
-          <li className="ml-2">
+          <li className="ml-1 xl:ml-2">
             <JoinUsButton size="sm" />
           </li>
         </ul>

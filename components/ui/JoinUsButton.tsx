@@ -22,7 +22,7 @@ export function JoinUsButton({
       target="_blank"
       rel="noopener noreferrer"
       onClick={onClick}
-      className={`bg-brand-action hover:bg-brand-action-hover inline-flex items-center justify-center gap-2 rounded-full font-semibold text-white shadow-[0_10px_30px_-10px_rgba(26,134,197,0.7)] transition-colors ${sizes[size]} ${className}`}
+      className={`bg-brand-action hover:bg-brand-action-hover inline-flex items-center justify-center gap-2 rounded-full font-semibold whitespace-nowrap text-white shadow-[0_10px_30px_-10px_rgba(26,134,197,0.7)] transition-colors ${sizes[size]} ${className}`}
     >
       Join Us
       <ExternalLinkIcon className="size-4" />
