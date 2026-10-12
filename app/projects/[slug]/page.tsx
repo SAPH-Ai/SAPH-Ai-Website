@@ -57,14 +57,15 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
 
       <Container className="grid gap-12 pt-6 pb-24 lg:grid-cols-[1.5fr_1fr]">
         <article className="min-w-0">
-          <div className="relative mb-10 aspect-[3/2] overflow-hidden rounded-[var(--radius-card)] bg-mist-100">
+          {/* Same as the home page: the whole photo, no background box. */}
+          <div className="relative mb-10 aspect-[3/2]">
             <Image
               src={project.image}
               alt={`${project.title}${project.placeholder ? " (placeholder image)" : ""}`}
               fill
               priority
               sizes="(min-width: 1024px) 640px, 100vw"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           {project.description.length > 0 && (
@@ -91,8 +92,12 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
                   <dd>{project.category}</dd>
                 </>
               )}
-              <dt className="font-semibold">Status</dt>
-              <dd>{project.status}</dd>
+              {project.status && (
+                <>
+                  <dt className="font-semibold">Status</dt>
+                  <dd>{project.status}</dd>
+                </>
+              )}
               {project.year && (
                 <>
                   <dt className="font-semibold">Year</dt>

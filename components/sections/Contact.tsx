@@ -14,8 +14,8 @@ export function Contact() {
       id="contact"
       tone="dark"
       eyebrow="Contact"
-      title="Let’s build cleaner cities together"
-      intro="Schools, partners, mentors, media or curious minds: we would love to hear from you."
+      title="Let's Build a Better Future Together."
+      intro="We are always open to new ideas, collaborations, and opportunities. If you have a project in mind or want to learn more about our work, please reach out to us. We look forward to connecting with you!"
       className="overflow-hidden"
     >
       <div

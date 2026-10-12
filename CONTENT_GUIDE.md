@@ -117,6 +117,7 @@ Achievements show as cards, 3 per row. The home page shows the first 6; `/achiev
 {
   "id": "achievement-19",
   "date": "March 2026",
+  "location": "Dhaka, Bangladesh",
   "title": "Champions, National Robotics Festival",
   "description": "What the team built, who took part and the result.",
   "image": "",
@@ -131,6 +132,7 @@ Achievements show as cards, 3 per row. The home page shows the first 6; `/achiev
 
 - Cards show **in the order of the file**, so put the ones you want first at the top.
 - `date` is plain text (e.g. `"March 2025"`). Use `""` to hide it.
+- `location` (e.g. `"Seoul, South Korea"`) shows as a chip with a pin icon. Use `""` to hide it.
 - `badge`: `"National"` or `"International"` get special colours; `""` hides it.
 - `image`: leave `""` for an empty photo slot. To add a photo, put it in
   `public/images/achievements/` (landscape, about 1200 × 675) and write its path, e.g.

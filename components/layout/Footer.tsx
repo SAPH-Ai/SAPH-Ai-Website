@@ -52,19 +52,19 @@ export function Footer() {
         </div>
       </Container>
       <div className="border-t border-white/10">
+        {site.disclaimer && (
+          <Container className="pt-6">
+            <p className="text-xs leading-relaxed text-mist-300/80">
+              <span className="font-semibold">Disclaimer:</span> {site.disclaimer}
+            </p>
+          </Container>
+        )}
         <Container className="flex flex-col gap-2 py-6 text-sm text-mist-300 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
           <p>Made with care by Musarrat Mahjabin.</p>
         </Container>
-        {site.disclaimer && (
-          <Container className="pb-6">
-            <p className="text-xs leading-relaxed text-mist-300/80">
-              <span className="font-semibold">Disclaimer:</span> {site.disclaimer}
-            </p>
-          </Container>
-        )}
       </div>
     </footer>
   );

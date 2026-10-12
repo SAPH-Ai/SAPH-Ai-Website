@@ -50,6 +50,8 @@ export interface Project {
 export interface Achievement {
   id: string;
   date: string;
+  /** City and country, shown as a chip on the card. */
+  location?: string;
   title: string;
   description: string;
   image?: string;

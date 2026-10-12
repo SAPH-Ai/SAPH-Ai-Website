@@ -65,14 +65,14 @@
     "placeholder": false
   },
   {
-    "slug": "Autonomous Underwater Robot for Environmental Analysis",
+    "slug": "AutonomousUnderwaterRobotforEnvironmentalAnalysis",
     "title": "Autonomous Underwater Robot for Environmental Analysis",
     "category": "",
     "status": "",
     "summary": "This custom AUV submerges to navigate and explore various underwater environments. It inspects water quality in real-time using sensors while detecting contaminants via computer vision. All gathered environmental and visual data is then transmitted back to the surface for analysis.",
     "description": [],
-    "image": "/images/projects/pipeline_robot.webp",
-    "tags": ["Robotics", "AI", "Sensors", "Safety"],
+    "image": "/images/projects/auto.webp",
+    "tags": ["Robotics", "AI", "Underwater", "Water Quality"],
     "year": "",
     "featured": true,
     "links": [],

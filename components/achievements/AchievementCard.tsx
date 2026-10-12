@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CalendarIcon, ExternalLinkIcon, TrophyIcon } from "@/components/ui/Icons";
+import { CalendarIcon, ExternalLinkIcon, MapPinIcon, TrophyIcon } from "@/components/ui/Icons";
 import { ExpandableText } from "@/components/ui/ExpandableText";
 import { PlaceholderBadge } from "@/components/ui/PlaceholderBadge";
 import type { Achievement } from "@/lib/types";
@@ -61,6 +61,16 @@ export function AchievementCard({
             </span>
           )}
           {item.badge && <AwardIconBadge label={item.badge} />}
+          {item.location && (
+            <span
+              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                dark ? "bg-white/10 text-mist-100" : "text-brand-mid bg-mist-100"
+              }`}
+            >
+              <MapPinIcon className="size-3.5" />
+              {item.location}
+            </span>
+          )}
           <PlaceholderBadge show={item.placeholder} />
         </div>
         <Heading className="text-lg leading-snug font-bold">{item.title}</Heading>
