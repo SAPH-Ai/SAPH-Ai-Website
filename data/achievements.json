@@ -64,11 +64,11 @@
   {
     "id": "achievement-5",
     "date": "",
-    "location": "",
+    "location": "Based on Stockholm, Sweden",
     "title": "Fund Winner at the Stockholm Junior Water Prize",
     "description": "Spearheading SAPH.Ai, Abrar Abir and Emtenan Kabir were selected as the Seed Fund Winner at the Stockholm Junior Water Prize, competing among distinguished participants from 60+ countries. Supported by the Swedish Government and global organizations like WaterAid, they developed an innovative water pollution detection-focused research project to address critical sustainability and environmental challenges. The team engineered an AI model within a modular device to cheaply and instantly test water contamination and treat the water on the spot, successfully testing and treating polluted water in the coastal areas for 20 villages.",
     "image": "/images/achievements/fund-winner-at-the-stockholm-junior-water-prize.webp",
-    "badge": "National",
+    "badge": "International",
     "links": [
       {
         "label": "Dhaka Mirror",
