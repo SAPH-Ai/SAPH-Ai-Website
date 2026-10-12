@@ -6,7 +6,7 @@
     "group": "leads",
     "photo": "/images/members/Abrar.webp",
     "bio": [
-    "Abrar Abir is a STEM innovator, robotics competitor, and AI researcher focused on solving rural challenges.",
+    "Abrar Abir is a STEM innovator, robotics and AI researcher focused on solving rural challenges.",
 "He founded SAPH.Ai in 2022 to develop practical technologies and mentor young innovators.",
 "His work spans AI/ML, 3D design, coding, and water sustainability research."
     ],
@@ -24,7 +24,9 @@
     "role": "Co-founder and CTO",
     "group": "leads",
     "photo": "/images/members/2.webp",
-    "bio": ["To be Added"],
+    "bio": ["A Z M Emtenan grew up in Rajshahi and Dhaka, Bangladesh, developing an early passion for robotics and engineering.",
+"He won silver at the International Robot Olympiad in Busan, co-founded SAPH.Ai, and has led robotics workshops and shared coding lessons with students across Bangladesh.",
+"He is currently studying Nanoscience and Engineering at Yonsei University's Underwood International College (UIC)."],
     "links": {
       "linkedin": "https://www.linkedin.com/in/emtenankabir/",
       "github": "https://github.com/emtenankabir",
