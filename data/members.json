@@ -71,7 +71,7 @@
     "role": "Chief Marketing Officer",
     "group": "members",
     "photo": "/images/members/5.webp",
-    "bio": ["To be Added"],
+    "bio": ["Just focused on self improvement and becoming better than I was yesterday."],
     "links": {
       "linkedin": "",
       "github": "",
@@ -101,7 +101,8 @@
     "role": "Head of Sustainability and Environmental Research",
     "group": "members",
     "photo": "/images/members/7.webp",
-    "bio": ["To be Added"],
+    "bio": ["Maimun Azmaeen Adib is an aspiring engineer driven by curiosity and a passion for solving real-world problems.",
+"He builds strong foundations while exploring unconventional ideas and new possibilities."],
     "links": {
       "linkedin": "https://www.linkedin.com/in/maimun-azmaeen-adib-408284389?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "github": "",
@@ -116,7 +117,8 @@
     "role": "Head of AI Policy & Ethics",
     "group": "members",
     "photo": "/images/members/8.webp",
-    "bio": ["To be Added"],
+    "bio": ["Md. Atik Morshed is a law student interested in AI policy, ethics, and legal research.",
+"He brings strong leadership and problem-solving skills, shaped by his experience in BNCC and Cub Scouts."],
     "links": {
       "linkedin": "",
       "github": "",
@@ -126,12 +128,27 @@
     "placeholder": false
   },
   {
+    "slug": "turabi-meherin-sokal",
+    "name": "Turabi Meherin Sokal",
+    "role": "Robotics Research Intern",
+    "group": "members",
+    "photo": "",
+    "bio": ["I am passionate about AI, robotics and technology"],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": "turabis950@gmail.com"
+    },
+    "placeholder": false
+  },
+  {
     "slug": "khondokar-mushfiqul-islam",
     "name": "Khondokar Mushfiqul Islam",
     "role": "Robotics Research Intern",
     "group": "members",
     "photo": "/images/members/9.webp",
-    "bio": ["To be Added"],
+    "bio": ["I am a student and an IRO medalist"],
     "links": {
       "linkedin": "",
       "github": "",
