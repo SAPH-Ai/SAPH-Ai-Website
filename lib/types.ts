@@ -67,8 +67,8 @@ export interface Member {
   role: string;
   group: "leads" | "members";
   photo: string;
-  bio: string;
-  intro: string[];
+  /** Shown in the profile pop-up. Each item is one paragraph. */
+  bio: string[];
   links: { linkedin?: string; github?: string; facebook?: string; email?: string };
   placeholder?: boolean;
 }

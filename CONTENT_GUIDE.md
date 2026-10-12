@@ -51,8 +51,7 @@ Copy an existing block, then edit it:
   "role": "Robotics Lead",
   "group": "leads",
   "photo": "/images/members/rahim-ahmed.webp",
-  "bio": "Two or three lines shown on the card.",
-  "intro": ["First paragraph of the full profile.", "Second paragraph."],
+  "bio": ["First paragraph of the profile.", "Second paragraph (add as many as you like)."],
   "links": {
     "linkedin": "https://www.linkedin.com/in/...",
     "github": "",
@@ -68,8 +67,7 @@ Copy an existing block, then edit it:
 | `slug`  | Unique, lowercase, dashes instead of spaces.                                      |
 | `group` | `"leads"` (Founders) or `"members"` (Team).                                       |
 | `photo` | Square photo, **800 × 800 px**, face centred. Put it in `public/images/members/`. |
-| `bio`   | Shown on the card (cut off after 3 lines).                                        |
-| `intro` | Shown when someone clicks the card. Each item is one paragraph.                   |
+| `bio`   | Shown when someone clicks the card. Each item in the list is one paragraph.       |
 | `links` | Leave a link as `""` to hide its icon.                                            |
 
 Members appear in the order they are listed in the file.
