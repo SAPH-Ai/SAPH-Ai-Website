@@ -105,4 +105,28 @@
     "links": [],
     "placeholder": false
   }
+  {
+    "slug": "artificial-soil-enhanced-substrate",
+    "title": "Artificial Soil: Enhanced Substrate for Agriculture",
+    "category": "",
+    "status": "",
+    "summary": "An ultra-lightweight, biologically enhanced coco peat substrate designed to replace traditional soil for rooftop and urban farming. It features superior aeration, retains up to 10x its weight in water, and utilizes Trichoderma fungi for disease resistance.",
+    "description": [
+        "Traditional soil poses significant challenges for urban and rooftop agriculture (Chhad Krishi) due to its heavy structural load, tendency to compact, and susceptibility to soil-borne pathogens.",
+        "This project formulates an enhanced potting medium using a base of washed Coco Peat. It is enriched with vermicompost and essential macronutrients (N, P, K, Ca, Mg) to create a nutritionally complete profile with an ideal pH of 5.5 to 6.8.",
+        "To combat disease, the substrate is biologically engineered with Trichoderma, a beneficial fungus that fights off harmful bacteria, eliminates free radicals, and promotes explosive root growth.",
+        "Comparative testing from 2019 to 2020 proved the substrate is 80% lighter than soil and drastically reduces daily watering needs, offering a highly sustainable solution for modern space-constrained agriculture."
+    ],
+    "image": "",
+    "tags": ["Agriculture", "Bioengineering", "Urban Farming"],
+    "year": "",
+    "featured": true,
+    "links": [
+        {
+            "name": "Project Video",
+            "url": "https://youtu.be/H5mQ0zMN1lw"
+        }
+    ],
+    "placeholder": false
+}
 ]
