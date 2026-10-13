@@ -47,7 +47,10 @@
     "description": "SAPH.Ai members Musarrat Mahjabin and Turabi Meherin Sokal, mentored by Abrar Abir, officially secured 3rd Prize at the prestigious 16th e-ICON World Contest in Seoul, South Korea. Hosted by the Ministry of Education, Republic of Korea, this global AI and software competition challenges young innovators to build web applications that directly address the UN Sustainable Development Goals (SDGs). Standing out among 252 international teams, Team MonAndo earned the fully funded honor of representing Bangladesh in the international final round by developing MonAndo, an AI-powered mental wellness web app that provides free, localized Virtual Reality Exposure Therapy (VRET) designed specifically for underprivileged youth.",
     "image": "/images/achievements/winner-at-the-e-icon-world-contest.webp",
     "badge": "International",
-    "links": [],
+    "links": [{
+        "label": "e-ICON official results",
+        "url": "https://e-icon.or.kr/en/2026%eb%85%84-%ec%a0%9c16%ed%9a%8c-%ea%b3%a0%eb%93%b1%eb%b6%80-3%eb%93%b1-%ed%95%9c%ea%b5%ad%ea%b5%90%ec%9c%a1%ed%95%99%ec%88%a0%ec%a0%95%eb%b3%b4%ec%9b%90%ec%9e%a5%ec%83%81/"
+      }],
     "placeholder": false
   },
   {

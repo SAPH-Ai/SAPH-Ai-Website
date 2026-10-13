@@ -4,7 +4,14 @@ import { ButtonLink } from "@/components/ui/Button";
 import { JoinUsButton } from "@/components/ui/JoinUsButton";
 import { memberGroups } from "@/lib/content";
 
+// The home page shows one row per group; everyone else is on the full team page.
+const HOME_LIMIT: Record<string, number> = { leads: 2, members: 4 };
+
 export function Team() {
+  const homeGroups = memberGroups.map((g) => ({
+    ...g,
+    members: g.members.slice(0, HOME_LIMIT[g.id] ?? 4),
+  }));
   return (
     <Section
       id="team"
@@ -12,7 +19,7 @@ export function Team() {
       title="The young minds behind SAPH.Ai"
       intro="Students and young innovators combining robotics, AI and community work. Select a card to read a full profile."
     >
-      <TeamGrid groups={memberGroups} />
+      <TeamGrid groups={homeGroups} />
       <div className="mt-12 flex flex-wrap justify-center gap-3">
         <ButtonLink href="/team/" variant="ghost-dark" arrow>
           Full team page
