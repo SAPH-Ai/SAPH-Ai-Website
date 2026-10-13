@@ -111,6 +111,22 @@
     },
     "placeholder": false
   },
+    {
+    "slug": "moshiur-rahman-asif",
+    "name": "MD. Moshiur Rahman Asif",
+    "role": "Head of Healthtech Research",
+    "group": "members",
+    "photo": "/images/members/Moshiur Rahman Asif.jpeg",
+    "bio": ["Md. Moshiur Rahman Asif is an MBBS student passionate about medicine and human health.",
+"He is building a strong foundation in medical knowledge and patient care."],
+    "links": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "email": "asifip15pm@gmail.com"
+    },
+    "placeholder": false
+  },
   {
     "slug": "md-atik-morshed",
     "name": "MD. ATIK MORSHED",
