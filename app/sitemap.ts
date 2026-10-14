@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/projects/",
     "/team/",
     "/achievements/",
+    "/gallery/",
     ...projects.map((p) => `/projects/${p.slug}/`),
     ...(events.length ? ["/events/", ...events.map((e) => `/events/${e.id}/`)] : []),
   ];

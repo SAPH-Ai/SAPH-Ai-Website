@@ -1,6 +1,7 @@
 import { Section } from "@/components/layout/Section";
 import { ExternalLinkIcon } from "@/components/ui/Icons";
 import { Reveal } from "@/components/ui/Reveal";
+import { FlowLines } from "@/components/ui/FlowLines";
 import { publications } from "@/lib/content";
 
 /** Research papers. Renders only when data/publications.json has entries. */
@@ -12,7 +13,9 @@ export function Publications() {
       eyebrow="Publications"
       title="Research & Publications"
       intro="Peer-reviewed research behind our work, turning field problems into published, verifiable results."
+      className="isolate overflow-hidden"
     >
+      <FlowLines className="top-10 -right-24" />
       <ul className="space-y-6">
         {publications.map((pub) => (
           <Reveal as="li" key={pub.id}>

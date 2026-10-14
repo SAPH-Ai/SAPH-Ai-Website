@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/Icons";
 import { Card } from "@/components/ui/Card";
 import { Reveal } from "@/components/ui/Reveal";
+import { FlowLines } from "@/components/ui/FlowLines";
 import { gallery, site } from "@/lib/content";
 
 // Icons for the "What We Do" cards, by title (data/site.json → "themes"). Unknown titles get a droplet.
@@ -49,8 +50,9 @@ export function About() {
     <section
       id="about"
       aria-labelledby="about-heading"
-      className="text-brand-navy relative bg-white py-20 sm:py-24"
+      className="text-brand-navy relative isolate overflow-hidden bg-white py-20 sm:py-24"
     >
+      <FlowLines className="-top-6 -right-24" />
       <Container className="grid gap-12 lg:grid-cols-[1.35fr_1fr] lg:gap-12">
         {/* Left: introduction + What We Do? */}
         <div>

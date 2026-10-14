@@ -2,6 +2,7 @@ import { ProjectFeature } from "@/components/projects/ProjectFeature";
 import { Section } from "@/components/layout/Section";
 import { ButtonLink } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+import { FlowLines } from "@/components/ui/FlowLines";
 import { featuredProjects } from "@/lib/content";
 
 export function FeaturedProjects() {
@@ -12,24 +13,9 @@ export function FeaturedProjects() {
       eyebrow="Featured projects"
       title="Innovations That Matter"
       intro="A look at what we are building. Each project grows through research, fieldwork and competition."
-      className="overflow-hidden"
+      className="isolate overflow-hidden"
     >
-      {/* Faint flowing lines, echoing the wave in the logo */}
-      <svg
-        aria-hidden="true"
-        focusable="false"
-        viewBox="0 0 400 300"
-        className="text-brand-mid/15 pointer-events-none absolute top-1/3 -right-24 hidden w-[420px] lg:block"
-        fill="none"
-        stroke="currentColor"
-      >
-        {Array.from({ length: 9 }, (_, i) => (
-          <path
-            key={i}
-            d={`M0 ${120 + i * 12}C100 ${60 + i * 12} 200 ${180 + i * 12} 400 ${100 + i * 12}`}
-          />
-        ))}
-      </svg>
+      <FlowLines className="top-1/3 -right-24" />
 
       {/* 2 columns; image and text swap sides on every other row. */}
       <ul className="grid gap-x-12 gap-y-14 lg:grid-cols-2 lg:gap-y-16">

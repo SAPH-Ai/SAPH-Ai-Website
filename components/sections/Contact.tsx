@@ -6,6 +6,7 @@ import { PlaceholderBadge } from "@/components/ui/PlaceholderBadge";
 import { Reveal } from "@/components/ui/Reveal";
 import { JoinUsButton } from "@/components/ui/JoinUsButton";
 import { SocialLinks } from "@/components/ui/SocialLinks";
+import { FlowLines } from "@/components/ui/FlowLines";
 import { site } from "@/lib/content";
 
 export function Contact() {
@@ -16,8 +17,9 @@ export function Contact() {
       eyebrow="Contact"
       title="Let's Build a Better Future Together."
       intro="We are always open to new ideas, collaborations, and opportunities. If you have a project in mind or want to learn more about our work, please reach out to us. We look forward to connecting with you!"
-      className="overflow-hidden"
+      className="isolate overflow-hidden"
     >
+      <FlowLines className="top-16 -right-24" tone="dark" />
       <div
         aria-hidden="true"
         className="bg-brand-bright/20 pointer-events-none absolute bottom-0 left-0 size-[480px] -translate-x-1/3 translate-y-1/3 rounded-full blur-3xl"

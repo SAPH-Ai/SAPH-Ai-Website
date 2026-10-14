@@ -168,7 +168,8 @@ Achievements show as cards, 3 per row. The home page shows the first 6; `/achiev
 
 - `alt` describes the photo for blind visitors and search engines. Always fill it in.
 - `width` / `height` are the photo's real pixel size (any orientation works).
-- The **first three** gallery photos also appear in the "What is SAPH.Ai?" section.
+- The home page shows the **first 6** photos; the **Gallery page** (`/gallery`) shows all of them.
+- The **first four** photos also appear in the About section.
 
 ## Publications: `data/publications.json`
 
